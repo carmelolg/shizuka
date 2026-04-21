@@ -4,6 +4,10 @@ title = "Shizuka Demo"
 theme = "shizuka"
 paginate = 5
 
+[author]
+  name = "Your Name"
+  email = "you@example.com"  # can be omitted, but adding it avoids the rss.xml lookup issue
+
 [params]
   description = "A minimal, clean Hugo blog theme inspired by the Japanese aesthetic of shibui."
   author = "Your Name"
