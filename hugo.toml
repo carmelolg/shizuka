@@ -5,6 +5,10 @@ enableRobotsTXT = true
 enableGitInfo = false
 paginate = 5
 
+[author]
+  name = "Shizuka"
+  email = "hello@example.com"
+
 [params]
   description = "A minimal Hugo blog theme."
   author = ""
