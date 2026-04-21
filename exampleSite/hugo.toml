@@ -20,8 +20,8 @@ paginate = 5
   tagline = "Slow writing, clear thinking."
 
 [outputs]
-  home = ["HTML", "RSS"]
-  section = ["HTML", "RSS"]
+  home = ["HTML"]
+  section = ["HTML"]
   taxonomy = ["HTML"]
   term = ["HTML"]
 
