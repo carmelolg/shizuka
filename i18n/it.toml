@@ -1,0 +1,72 @@
+[skip_to_content]
+other = "Salta al contenuto"
+
+[back_to_posts]
+other = "← Tutti gli articoli"
+
+[back_to_blog]
+other = "← Torna al blog"
+
+[back_to_home]
+other = "← Torna alla home"
+
+[toc_title]
+other = "Indice"
+
+[previous]
+other = "← Precedente"
+
+[next]
+other = "Successivo →"
+
+[related_posts_aria]
+other = "Articoli correlati"
+
+[all_articles]
+other = "Tutti gli articoli"
+
+[pagination_aria]
+other = "Paginazione"
+
+[archive_description]
+other = "Tutti gli articoli, dal primo all'ultimo."
+
+[articles_written]
+one = "1 articolo scritto"
+other = "{{ . }} articoli scritti"
+
+[latest_posts]
+other = "Ultimi post"
+
+[view_all]
+other = "Visualizza tutti →"
+
+[reading_time]
+other = "min di lettura"
+
+[footer_pages]
+other = "Pagine"
+
+[footer_section_title]
+other = "Il blog"
+
+[all_rights_reserved]
+other = "tutti i diritti riservati"
+
+[footer_nav_aria]
+other = "Navigazione footer"
+
+[main_nav_aria]
+other = "Navigazione principale"
+
+[theme_toggle_dark]
+other = "Passa al tema scuro"
+
+[theme_toggle_light]
+other = "Passa al tema chiaro"
+
+[page_not_found]
+other = "Questa pagina non esiste."
+
+[page_not_found_message]
+other = "Forse è stata spostata, forse non è mai esistita.<br>Come certi pensieri — spariscono prima di essere scritti."

@@ -1,0 +1,61 @@
+baseURL = ""
+languageCode = "en"
+title = "Shizuka"
+enableRobotsTXT = true
+enableGitInfo = false
+paginate = 5
+
+[params]
+  description = "A minimal Hugo blog theme."
+  author = ""
+  keywords = ["blog"]
+  ogImage = "/images/og-default.png"
+  rssLimit = 20
+  dateFormat = "January 2, 2006"
+  github = ""
+  website = ""
+  tagline = ""
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
+    style = "monokailight"
+    noClasses = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Archive"
+    url = "/archive/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
