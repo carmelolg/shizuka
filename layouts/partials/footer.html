@@ -64,3 +64,8 @@
     </div>
   </div>
 </footer>
+
+{{- if and .Site.Params.googleAnalyticsID .Site.Params.enableCookieConsent }}
+<!-- Cookie Consent Script -->
+{{ partial "cookie-consent-script.html" . }}
+{{- end }}
