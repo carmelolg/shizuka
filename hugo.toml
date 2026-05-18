@@ -18,6 +18,9 @@ paginate = 5
   github = ""
   website = ""
   tagline = ""
+  googleAnalyticsID = ""  # Google Analytics 4 Measurement ID (e.g. "G-XXXXXXXXXX")
+  enableCookieConsent = true  # Show cookie consent banner when GA is enabled
+  privacyPolicyURL = ""  # Link to privacy policy (optional, e.g. "/privacy/")
 
 [outputs]
   home = ["HTML", "RSS"]

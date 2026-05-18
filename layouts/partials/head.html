@@ -68,3 +68,11 @@
 
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+<!-- Analytics -->
+{{ partial "analytics.html" . }}
+
+{{- if and .Site.Params.googleAnalyticsID .Site.Params.enableCookieConsent }}
+<!-- Cookie Consent Banner -->
+{{ partial "cookie-consent.html" . }}
+{{- end }}
