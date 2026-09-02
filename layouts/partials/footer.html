@@ -52,7 +52,7 @@
         <p class="site-footer-section-title">{{ i18n "footer_section_title" }}</p>
         {{- $posts := where .Site.RegularPages "Section" "posts" }}
         <p class="site-footer-meta">{{ i18n "articles_written" (len $posts) }}</p>
-        <p class="site-footer-meta">Developed by {{- with .Site.Params.website }} <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Site.Params.author }}</a>{{- end }} </p>
+        <p class="site-footer-meta">Developed by {{- with .Site.Params.website }} <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Site.Params.authorName }}</a>{{- end }} </p>
         <p class="site-footer-meta"><a href="https://github.com/carmelolg/shizuka" target="_blank" rel="noopener noreferrer">Shizuka</a> theme by <a href="https://github.com/carmelolg" target="_blank" rel="noopener noreferrer">carmelolg</a></p>
       </div>
 
@@ -60,7 +60,7 @@
 
     <!-- Bottom bar -->
     <div class="site-footer-bottom">
-      <span>&copy; {{ now.Year }} {{- with .Site.Params.website }} <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Site.Params.author }}</a>{{- end }} — {{ i18n "all_rights_reserved" }}</span>
+      <span>&copy; {{ now.Year }} {{- with .Site.Params.website }} <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Site.Params.authorName }}</a>{{- end }} — {{ i18n "all_rights_reserved" }}</span>
     </div>
   </div>
 </footer>
