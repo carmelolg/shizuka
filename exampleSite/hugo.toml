@@ -1,5 +1,5 @@
 baseURL = ""
-languageCode = "en"
+locale = "en"
 title = "Shizuka Demo"
 theme = "shizuka"
 paginate = 5
@@ -22,6 +22,8 @@ paginate = 5
   googleAnalyticsID = "G-DEMO123456"  # Your GA4 Measurement ID
   enableCookieConsent = true          # Show GDPR cookie consent banner
   privacyPolicyURL = "/policy/"
+  # Comments (optional)
+  cusdisAppId = "a49eb5f3-4da8-44b5-bb7b-11cb8f3a0f55"  # Your Cusdis App ID — get it at https://cusdis.com
 
 [outputs]
   home = ["HTML", "RSS"]

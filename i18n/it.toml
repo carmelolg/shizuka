@@ -70,3 +70,54 @@ other = "Questa pagina non esiste."
 
 [page_not_found_message]
 other = "Forse è stata spostata, forse non è mai esistita.<br>Come certi pensieri — spariscono prima di essere scritti."
+
+[comments_title]
+other = "Commenti"
+
+[comments_loading]
+other = "Caricamento commenti…"
+
+[comments_empty]
+other = "Ancora nessun commento. Sii il primo a condividere i tuoi pensieri."
+
+[comments_load_error]
+other = "Impossibile caricare i commenti."
+
+[comments_form_title]
+other = "Lascia un commento"
+
+[comments_nickname]
+other = "Nickname"
+
+[comments_nickname_placeholder]
+other = "il_tuo_nick"
+
+[comments_email]
+other = "Email"
+
+[comments_email_hint]
+other = "Non verrà mai mostrata pubblicamente."
+
+[comments_firstname]
+other = "Nome"
+
+[comments_lastname]
+other = "Cognome"
+
+[comments_content]
+other = "Commento"
+
+[comments_content_placeholder]
+other = "Scrivi il tuo commento qui…"
+
+[comments_required_note]
+other = "* Campi obbligatori"
+
+[comments_submit]
+other = "Invia commento"
+
+[comments_submitted]
+other = "Il tuo commento è stato inviato ed è in attesa di moderazione. Grazie!"
+
+[comments_submit_error]
+other = "Impossibile inviare il commento. Riprova."

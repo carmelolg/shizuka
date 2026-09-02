@@ -70,3 +70,54 @@ other = "This page does not exist."
 
 [page_not_found_message]
 other = "Maybe it was moved, maybe it never existed.<br>Like some thoughts — gone before they're written down."
+
+[comments_title]
+other = "Comments"
+
+[comments_loading]
+other = "Loading comments…"
+
+[comments_empty]
+other = "No comments yet. Be the first to share your thoughts."
+
+[comments_load_error]
+other = "Could not load comments."
+
+[comments_form_title]
+other = "Leave a comment"
+
+[comments_nickname]
+other = "Nickname"
+
+[comments_nickname_placeholder]
+other = "your_handle"
+
+[comments_email]
+other = "Email"
+
+[comments_email_hint]
+other = "Never displayed publicly."
+
+[comments_firstname]
+other = "First name"
+
+[comments_lastname]
+other = "Last name"
+
+[comments_content]
+other = "Comment"
+
+[comments_content_placeholder]
+other = "Write your comment here…"
+
+[comments_required_note]
+other = "* Required fields"
+
+[comments_submit]
+other = "Post comment"
+
+[comments_submitted]
+other = "Your comment has been submitted and is awaiting moderation. Thank you!"
+
+[comments_submit_error]
+other = "Could not submit your comment. Please try again."

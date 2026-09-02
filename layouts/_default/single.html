@@ -30,6 +30,8 @@
     </div>
   </footer>
 
+  {{ partial "comments.html" . }}
+
   {{- $prev := .PrevInSection -}}
   {{- $next := .NextInSection -}}
   {{- if or $prev $next }}
